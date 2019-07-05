@@ -225,6 +225,7 @@ footer ul {
   .col {
     float: left;
     width: 50%;
+    height: 400px;;
   }
 
   .clearfix::after {
