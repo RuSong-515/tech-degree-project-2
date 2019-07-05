@@ -1,0 +1,316 @@
+* {
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+
+body {
+  background:#f7f5f5;
+  color: #696666;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h2 {
+  margin: 3rem 0; 
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.3rem;
+  font-size: 15px; 
+  padding-bottom: 1rem;
+  margin: 0;
+}
+
+.portfolio p {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.info {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #f7f5f5;
+}
+
+.info p,
+.contact p {
+  color: #8f8f8f;
+  font-size: 16px;
+  line-height: 1.5rem;
+}
+
+.nav {
+  text-align: center;
+}
+
+.nav ul {
+  padding-left: 0px;
+}
+
+.nav li {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  list-style: none;
+  text-align: center;
+  
+}
+
+
+img {
+  display: block;
+  margin-top: 2rem;
+}
+
+.contact span {
+  font-weight: 700;
+}
+
+footer {
+  border-top: solid 1px  #d6d4d4;
+}
+
+footer span {
+  font-weight: 700;
+  display: block;
+  margin: 20px 0;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+
+a:link,
+a:visited {
+  color: #696666;
+  text-decoration: none;
+}
+
+
+/* Layout part ---------------------------------*/
+header,
+footer {
+  width: 90%;
+  margin: auto;
+}
+
+
+header h1 {
+  text-align: center;
+
+}
+
+.portfolio {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: white;
+}
+
+
+.email {
+  padding-bottom: 4rem;
+}
+
+.name {
+  float: left;
+
+}
+
+.button {
+  float: right;
+  font-size: 0.8rem;
+}
+
+
+/* Media query ---------------------------------*/
+
+ 
+.nav a {
+  text-decoration: none;
+  display: block;
+  background: white;
+  padding: 10px 30px;
+  margin: 5px 0;
+}
+
+.portfolio {
+  text-align: center;
+  width: 100%;
+ 
+}
+
+.info,
+.contact {
+  text-align: center;
+  margin-right: 1.25rem;
+  margin-left: 1.25rem;
+  
+}
+
+.info-pic {
+  display: block;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+footer ul {
+  display: none;
+}
+
+
+@media (min-width: 321px) {
+ 
+
+  h1 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .nav li {
+    display: inline;
+  }
+
+
+  #navbar a {
+    display: inline-block;
+    width: 30%;
+    font-size: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    background: none;
+  }
+
+  .info {
+    display: flex;
+    margin-left: 0.1rem;
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  .info-pic {
+    width: 40%;
+    margin-top: 0;
+    margin-left: 15px;
+  }
+
+  .info p {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .col {
+    float: left;
+    width: 50%;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .contact {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .contact p {
+    font-size: 20px;
+  }
+
+  .button {
+    display: none;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .nav a {
+    background: none;
+    font-size: 0.8rem;
+    padding: 10px 15px;
+  }
+  
+}
+
+@media (min-width: 1024px) {
+  body {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .col {
+    width: 33.3%;
+    
+  }
+
+  .portfolio {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
+
+  .info p,
+  .contact p {
+    font-size: 25px;
+    line-height: 2rem;
+  }
+
+  .contact {
+    width: 60%;
+  }
+
+  .info p {
+    margin-left: 4rem;
+    margin-right:3rem;
+    text-align: left;
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  header li {
+    display: block;
+    padding: 20px 5px;
+    margin: 0 10px;
+  }
+
+  h1 {
+    float: left;
+  }
+
+  .info {
+    margin-top: 1.5rem;
+  }
+}
+ 
