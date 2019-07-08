@@ -104,7 +104,7 @@ a:visited {
 /* Layout part ---------------------------------*/
 header,
 footer {
-  width: 90%;
+  width: 93%;
   margin: auto;
 }
 
@@ -181,7 +181,7 @@ footer ul {
 }
 
 
-@media (min-width: 321px) {
+@media (min-width: 768px) {
  
 
   h1 {
@@ -211,7 +211,7 @@ footer ul {
   }
 
   .info-pic {
-    width: 40%;
+    width: 48%;
     margin-top: 0;
     margin-left: 15px;
   }
@@ -263,7 +263,7 @@ footer ul {
 
 @media (min-width: 1024px) {
   body {
-    max-width: 1200px;
+    max-width: 1083px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -290,9 +290,18 @@ footer ul {
   }
 
   .info p {
-    margin-left: 4rem;
-    margin-right:3rem;
+    margin-left: 20px;
+    margin-right:20px;
     text-align: left;
+    max-width: 600px;
+    
+  }
+
+  .info-pic {
+    width: 50%;
+    margin-right: 0;
+    margin-left: 0;
+    
   }
 
   header ul {
