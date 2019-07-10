@@ -304,15 +304,25 @@ footer ul {
     
   }
 
-  header ul {
-    display: flex;
-    flex-direction: row-reverse;
+  nav {
+    display: float;
   }
 
-  header li {
-    display: block;
-    padding: 20px 5px;
-    margin: 0 10px;
+  #navbar a {
+    width: 20%;
+  }
+
+  nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 20px;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-left: 40px;
   }
 
   h1 {
@@ -321,6 +331,7 @@ footer ul {
 
   .info {
     margin-top: 1.5rem;
+    clear: both;
   }
 }
  
